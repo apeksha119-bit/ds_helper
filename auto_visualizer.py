@@ -33,4 +33,4 @@ data = {
     'Review': ['Good product', 'Excellent and fast', 'Not good', 'Very useful', 'Good value']
 }
 df = pd.DataFrame(data)
-visualize(df)
+visualize(df)  
