@@ -26,11 +26,4 @@ def visualize(df):
                 plt.title(f'Histogram: {column}')
         plt.tight_layout()
         plt.show()
-
-data = {
-    'Age': [25, 30, 45, 22, 27],
-    'Gender': ['Male', 'Female', 'Female', 'Male', 'Male'],
-    'Review': ['Good product', 'Excellent and fast', 'Not good', 'Very useful', 'Good value']
-}
-df = pd.DataFrame(data)
-visualize(df)  
+  
